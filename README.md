@@ -1,2 +1,2 @@
-# SP20-Web Technologies
- Class Repo for Web Technologies
+# SP20-Web Technologies By Usman Akram
+  [Class Web Page](https://www.usmanlive.com)
