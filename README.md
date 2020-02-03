@@ -4,12 +4,12 @@
 ## Class Rules
 1. Quiz
 
-...All Quiz would be surprise and there will be no retake in any case. Quizzez are the direct indication of your class participation
+   All Quiz would be surprise and there will be no retake in any case. Quizzez are the direct indication of your class participation
 
 2. Assignment 
 
-...You will be developing a full scale semester project. You will be evaluated on that basis. 
+   You will be developing a full scale semester project. You will be evaluated on that basis. 
 
-3. Attendance Policy
+1. Attendance Policy
 
-...Leave Class at your own risk. 
+   Leave Class at your own risk. 
