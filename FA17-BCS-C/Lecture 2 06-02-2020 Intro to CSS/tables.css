@@ -1,0 +1,12 @@
+table {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+td {
+  border: 1px solid red;
+}
+tr {
+  border: 1px solid green;
+  margin: 2px;
+}
