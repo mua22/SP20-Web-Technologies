@@ -1,0 +1,12 @@
+table {
+  border: 2px solid black;
+  width: 100%;
+}
+td {
+  border: 1px dashed blue;
+  text-align: right;
+}
+body {
+  background-image: url("./download.jpg");
+  background-repeat: no-repeat;
+}
