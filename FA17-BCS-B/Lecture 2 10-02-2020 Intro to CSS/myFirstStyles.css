@@ -1,0 +1,9 @@
+p {
+  border: 2px dashed blue;
+}
+
+span {
+  /* font-size: 150%; */
+  font-size: 2em;
+  color: rgb(20, 20, 20);
+}
