@@ -1,0 +1,26 @@
+div {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid black;
+}
+img {
+  float: right;
+}
+#first {
+  overflow: hidden;
+}
+#second {
+  /* clear: right; */
+  padding-right: 25%;
+}
+#first {
+  float: right;
+  width: 25%;
+}
+#meun {
+  list-style-type: none;
+}
+#meun li {
+  display: inline;
+  margin-right: 5px;
+}

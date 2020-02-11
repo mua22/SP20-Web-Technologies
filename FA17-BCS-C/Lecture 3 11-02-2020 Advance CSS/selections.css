@@ -1,0 +1,29 @@
+p {
+  color: red;
+}
+#forth {
+  color: blue;
+}
+.orange-bg {
+  background-color: orange;
+}
+.myborder {
+  border: 2px solid black;
+}
+
+a:hover {
+  color: red;
+  background-color: paleturquoise;
+  font-size: 1.1em;
+}
+p:first-letter {
+  font-size: 2em;
+}
+
+#third {
+  padding: 15px;
+  margin: 15px;
+  background-color: palevioletred;
+  color: white;
+  border: 20px solid black;
+}

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  width: 50%;
+  border: 1px solid red;
+}
+#test {
+  border: 2px solid red;
+  background-color: aqua;
+  /* margin: 20px; */
+  padding: 20px;
+}
