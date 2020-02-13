@@ -1,0 +1,18 @@
+#second {
+  position: fixed;
+  top: 0px;
+  background-color: blueviolet;
+}
+#third {
+  background-color: chocolate;
+  height: 200px;
+  position: relative;
+}
+#third div {
+  background-color: white;
+  height: 50px;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

@@ -1,0 +1,39 @@
+p {
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+  /* width: 50%; */
+}
+#second {
+  background-color: aquamarine;
+  border: 2px dashed blue;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: static;
+}
+img {
+  width: 150px;
+  float: right;
+}
+#third {
+  clear: right;
+}
+#first {
+  float: right;
+  width: 20%;
+}
+ul#menu {
+  list-style-type: none;
+  background-color: black;
+  padding-bottom: 5px;
+}
+ul#menu li {
+  display: inline;
+  margin-left: 20px;
+  color: white;
+}
+ul#menu li a {
+  color: white;
+}
