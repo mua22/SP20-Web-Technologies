@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      p {
+        border: 2px dashed blue;
+        flex: 24%;
+        max-width: 24%;
+        padding: 0 4px;
+      }
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      @media (max-width: 800px) {
+        p {
+          border: 2px dashed blue;
+          flex: 40%;
+          max-width: 40%;
+          padding: 0 4px;
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>some para text</p>
+      <p>some para text</p>
+      <p>some para text</p>
+      <p>some para text</p>
+      <p>some para text</p>
+      <p>some para text</p>
+    </div>
+  </body>
+</html>

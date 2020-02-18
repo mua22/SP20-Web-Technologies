@@ -1,0 +1,23 @@
+#second {
+  background-color: aqua;
+  position: sticky;
+  top: 0px;
+}
+
+#ad {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+#announcement {
+  color: red;
+  background-color: yellow;
+  position: absolute;
+  left: 100px;
+}
+#fourth {
+  position: relative;
+}

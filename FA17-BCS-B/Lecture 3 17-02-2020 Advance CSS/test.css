@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+  /* display: none; */
+
+  border: 2px solid black;
+  padding: 3px;
+}
+
+li {
+  border: 2px solid blue !important;
+  padding: 5px;
+  margin: 5px;
+  display: inline;
+}
+
+li {
+  border-color: crimson;
+}

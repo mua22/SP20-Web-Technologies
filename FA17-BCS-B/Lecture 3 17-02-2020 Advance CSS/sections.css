@@ -1,0 +1,21 @@
+div {
+  border: 2px solid black;
+}
+
+#first {
+}
+
+.custombg {
+  background-color: aqua;
+}
+
+.customcolor {
+  color: orange;
+}
+
+p:first-line {
+  font-size: 1.5em;
+}
+a:hover {
+  color: red;
+}
