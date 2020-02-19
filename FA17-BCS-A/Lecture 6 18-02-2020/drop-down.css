@@ -1,0 +1,31 @@
+#menu {
+  border: 1px dashed black;
+  padding: 5px;
+}
+#menu > li {
+  border: 1px dashed red;
+  display: inline;
+  margin: 5px;
+}
+.hasDropDown {
+  position: relative;
+}
+.hasDropDown > ul {
+  list-style-type: none;
+  background-color: aqua;
+  display: none;
+}
+
+.hasDropDown:hover .dropDown {
+  display: block;
+}
+.dropDown {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 200px;
+}
+
+.dropDown > li {
+  display: block;
+}

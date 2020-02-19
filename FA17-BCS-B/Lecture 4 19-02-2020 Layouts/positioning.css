@@ -1,0 +1,34 @@
+div {
+  border: 2px solid black;
+  margin: 3px;
+}
+#fixedExample {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#second {
+  position: relative;
+  background-color: aqua;
+  top: 10px;
+}
+#abs {
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+#fourth {
+  position: relative;
+}
+
+.sticky {
+  color: red;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: burlywood;
+}

@@ -1,0 +1,18 @@
+div {
+  border: 2px solid black;
+  margin: 3px;
+}
+img {
+  width: 100px;
+  float: right;
+  border: 2px solid blue;
+  margin: 3px;
+}
+#second {
+  clear: right;
+  float: left;
+  width: 20%;
+}
+#first {
+  overflow: hidden;
+}

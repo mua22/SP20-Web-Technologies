@@ -1,0 +1,28 @@
+#menu {
+  list-style-type: none;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 0.3em;
+}
+
+#menu > li {
+  list-style-type: none;
+  border: 2px dashed red;
+  margin: 5px;
+  display: inline;
+}
+.hasDropDown {
+  position: relative;
+}
+.dropDown {
+  list-style-type: none;
+  background-color: orange;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100px;
+}
+.hasDropDown:hover > ul {
+  display: block;
+}
