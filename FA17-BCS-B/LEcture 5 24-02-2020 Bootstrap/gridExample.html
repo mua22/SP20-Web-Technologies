@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js
+"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+      div {
+        /* border-bottom: 2px dashed blue; */
+      }
+    </style>
+  </head>
+  <body class="container">
+    <input type="text" />
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        name="email"
+        id="email"
+        aria-describedby="helpId"
+        placeholder="Enter Email"
+      />
+      <small id="helpId" class="form-text text-muted"
+        >This is your primary email</small
+      >
+    </div>
+    <h3>Grid Example</h3>
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary btn-lg"
+      data-toggle="modal"
+      data-target="#modelId"
+    >
+      Launch
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modelId"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modelTitleId"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Body
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+      <strong>Holy guacamole!</strong> You should check in on some of those
+      fields below.
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
+        cumque possimus blanditiis rerum dolore architecto? Autem dolorem animi
+        reiciendis. Cum deleniti sit, voluptate porro iusto minus voluptatem
+        ipsum nesciunt laborum?
+      </div>
+      <div class="col-12  col-sm-6 col-md-4 col-lg-3 px-5">
+        Magni corrupti maiores, deserunt quia alias perferendis adipisci facere
+        earum veritatis iure illum debitis, doloribus beatae illo excepturi
+        fugit! Aut ab optio aperiam tempore corrupti error repudiandae sint
+        deserunt! Ab!
+      </div>
+      <div class="col-12  col-sm-6 col-md-4 col-lg-3">
+        Consequuntur, nisi impedit fuga quos sapiente blanditiis aut. Incidunt
+        minima, placeat praesentium nobis, at dolorum porro voluptates
+        temporibus veniam sed harum assumenda saepe animi voluptatibus
+        doloremque deleniti rerum expedita id!
+      </div>
+      <div class="col-12  col-sm-6 col-md-4 col-lg-3">
+        Assumenda et porro esse, debitis aspernatur sunt blanditiis repellendus
+        obcaecati expedita vitae nostrum. Fugiat consectetur beatae, obcaecati
+        rerum officiis laboriosam, mollitia quisquam distinctio autem aut modi
+        quaerat cumque, consequatur quo.
+      </div>
+      <div class="col-12  col-sm-12 col-md-4 col-lg-3">
+        Nulla autem cum saepe voluptatum, iusto reiciendis exercitationem facere
+        inventore fugit, quasi non praesentium doloremque consectetur rerum
+        voluptates quo! Consequatur impedit nemo nam ullam voluptas ducimus nisi
+        deleniti nesciunt numquam?
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.alert {
+  border-radius: 2em;
+}
+
+.alert-primary {
+  background-color: blue;
+  color: white;
+}
