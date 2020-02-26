@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function method2() {
+        alert("Hello from method 2");
+      }
+    </script>
+    <script src="./external.js"></script>
+  </head>
+  <body>
+    <h1>You can directly use HTML in onclick attribute</h1>
+    <button onclick="alert('You Clicked Me')">Click Me</button>
+    <h1>you can use custom functions</h1>
+    <button onclick="method2()">Methid 2</button>
+    <h1>Below method is from external js</h1>
+    <button onclick="method3()">Methid 3</button>
+  </body>
+</html>
