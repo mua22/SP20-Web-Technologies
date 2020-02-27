@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./myjs.js"></script>
+  </head>
+  <body>
+    <button onclick="alert('You clicked Me')">
+      Click Me By Method 1
+    </button>
+    <button onclick="mytest();">Method 2</button>
+    <button onclick="myfunc();">Method 3</button>
+    <h1
+      onmouseover="console.log('Mouse Over')"
+      onmouseout="console.log('mouse left')"
+    >
+      Mouse Events
+    </h1>
+    <script>
+      function mytest() {
+        console.log("From Inside mytest func");
+      }
+    </script>
+  </body>
+</html>
