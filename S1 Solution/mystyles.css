@@ -1,0 +1,58 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.la {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}
+.ra {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+.left {
+  float: left;
+  width: 20%;
+  background: #191818;
+  color: #999;
+}
+.right {
+  float: right;
+  width: 20%;
+  height: 200px;
+  border-left: 1px solid black;
+}
+.left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.left ul li a {
+  line-height: 1.6;
+  padding: 0.625em 1em;
+  color: #999;
+}
+.special {
+  margin: 20px;
+}
+.right input {
+  border-radius: 0.3em;
+  display: block;
+}
+.shout {
+  position: relative;
+  top: -20px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+body {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+}
