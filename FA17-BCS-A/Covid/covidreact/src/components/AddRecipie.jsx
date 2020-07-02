@@ -1,18 +1,22 @@
 import React from "react";
-// import axios from "axios";
+import axios from "axios";
+import { useHistory } from "react-router-dom";
 const AddRecipie = () => {
+  const history = useHistory();
+  console.log(history);
   const [title, setTitle] = React.useState("Fajita");
   const [body, setBody] = React.useState("How to make Fajita");
-  //   const addRecipe = () => {
-  //     axios
-  //       .post("https://usman-recipes.herokuapp.com/api/recipes", { title, body })
-  //       .then((res) => {
-  //         console.log(res.data);
-  //       })
-  //       .catch((err) => {
-  //         console.log(err);
-  //       });
-  //   };
+  const addRecipe = () => {
+    axios
+      .post("https://usman-recipes.herokuapp.com/api/recipes", { title, body })
+      .then((res) => {
+        console.log(res.data);
+        history.push("/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
   return (
     <div>
       <div className="form-group">
@@ -36,7 +40,9 @@ const AddRecipie = () => {
         />
       </div>
 
-      <button className="btn btn-info">Button</button>
+      <button className="btn btn-info" onClick={addRecipe}>
+        Button
+      </button>
     </div>
   );
 };
